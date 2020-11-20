@@ -384,13 +384,18 @@ iframe {
   aside {
     width: 30%;
   }
+
   #contact {
     min-height: 64vh;
   }
 
+  form {
+    padding-bottom: 2rem;
+  }
+
   .location-info {
     width: 30%;
-}
+  }
 
   .location-map {
     width: 65%;
@@ -473,7 +478,7 @@ iframe {
 
   .menu-content p {
     margin: 36px 0 0;
-}
+  }
 
   .ad {
     display: none;
