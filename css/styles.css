@@ -19,13 +19,14 @@ img {
 }
 
 .logo {
-  width: 212px;
+  width: max(212px, 15vw);
   margin-top: 14px;
 }
 
 .main-nav {
   display: flex;
   font-size: 1.25rem;
+  font-size: max(1.25rem, 1.85vw);
   text-transform: uppercase;
   margin-top: 34px;
   list-style: none;
@@ -61,13 +62,14 @@ img {
 }
 
 .home-content p {
-  font-size: 1.125rem;
+  font-size: max(1.75vw, 1.125rem);
   margin: 12px 0 42px;
   text-shadow: 1px 1px 2px #ffffff;
 }
 
 .page-title {
   font-size: 5rem;
+  font-size: max(6vw, 5rem);
   font-family: 'Philosopher', serif;
   line-height: 5.75rem;
   text-transform: uppercase;
@@ -76,7 +78,7 @@ img {
 }
 
 .button {
-  font-size: 1.375rem;
+  font-size: max(1.375rem, 2vw);
   background: #F5D4EF;
   color: #432;
   border-radius: 5px;
@@ -241,7 +243,7 @@ article {
 }
 
 .menu-content p {
-  font-size: 1.125rem;
+  font-size: max(1.75vw, 1.125rem);
   margin: 10px 0 0;
 }
 
@@ -287,7 +289,7 @@ form div {
 }
 
 label {
-  font-size: 1.125rem;
+  font-size: max(1.5vw, 1.125rem);
   margin-bottom: 10px;
   display: block;
   color: #fff;
@@ -301,18 +303,18 @@ textarea {
   border: 1px #fff solid;
   border-radius: 5px;
   padding: 10px;
-  font-size: 1rem;
+  font-size: max(1.5vw, 1.125rem);
 }
 
 input[type="text"],
 input[type="email"] {
   width: 100%;
-  max-width: 240px;
+  width: max(40vw, 480px);
 }
 
 textarea {
   width: 100%;
-  max-width: 480px;
+  width: max(40vw, 480px);
   height: 6rem;
 }
 
@@ -367,7 +369,6 @@ iframe {
   width: 30%;
 }
 
-
 /* パッド版ーーーーーーーーーーーーーーーーー */
 @media screen and (max-width: 959px) {
   .ad {
@@ -402,7 +403,7 @@ iframe {
 /* モバイル版ーーーーーーーーーーーーーーーーー */
 @media (max-width: 600px) {
   .page-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 3.75rem;
   }
 
