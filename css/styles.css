@@ -233,7 +233,7 @@ article {
 }
 
 .menu-content {
-  max-width: 560px;
+  width: min(750px, 77vw);
   margin-top: 10%;
 }
 
@@ -424,6 +424,14 @@ iframe {
   .page-header {
     flex-direction: column;
     align-items: center;
+  }
+
+  .home-content p {
+    font-size: max(1.75vw, 1rem);
+  }
+
+  .button {
+    padding: min(18px, 5vw) min(32px, 6vw);
   }
 
   /* NEWS */
