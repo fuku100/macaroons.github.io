@@ -50,7 +50,7 @@ img {
 }
 
 .wrapper {
-  width: min(1100px, 80%);
+  width: min(1100px, 88%);
   margin: 0 auto;
   padding: 0 4%;
 }
