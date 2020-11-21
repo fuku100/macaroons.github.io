@@ -58,7 +58,7 @@ img {
 /* home-content------------------------------------------------- */
 .home-content {
   text-align: center;
-  margin-top: 6vw;
+  margin-top: 8vw;
 }
 
 .home-content p {
@@ -179,7 +179,7 @@ aside {
 
 .post-title {
   font-family: "Yu mincho", "YuMincho", serif;
-  font-size: 2rem;
+  font-size: max(2.2vw, 1.5rem);
   font-weight: normal;
 }
 
