@@ -50,7 +50,7 @@ img {
 }
 
 .wrapper {
-  max-width: min(1100px, 70%);
+  width: min(1100px, 80%);
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -58,7 +58,7 @@ img {
 /* home-content------------------------------------------------- */
 .home-content {
   text-align: center;
-  margin-top: 8vw;
+  margin-top: 6vw;
 }
 
 .home-content p {
